@@ -1,9 +1,9 @@
 import React from 'react'
-import './experiens.css'
-const experiens = () => {
+import './Experiens.css'
+const Experiens = () => {
   return (
-    <div>experiens</div>
+    <div>Experiens</div>
   )
 }
 
-export default experiens
+export default Experiens

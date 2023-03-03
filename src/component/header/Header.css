@@ -1,3 +1,58 @@
 body{
     color: white;
 }
+.Header{
+    height: 100vh;
+    padding-top: 12rem;
+    overflow: hidden;
+}
+.header_container{
+    padding-top: 9rem;
+    align-content: space-between;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+:root{
+    --color-primary: #4db5ff;
+}
+.profile img{
+    background: linear-gradient(var(--color-primary));
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 5rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow:hidden;
+    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.scroll_down{
+    position: absolute;
+    right: 3.5rem;
+    bottom: 2rem;
+    transform: rotate(90deg);
+}
+
+/*================MEDIUM DEVICES==============*/
+@media screen and (max-width:1024px){
+    .Header{
+        height: 68vh;
+    }  
+}
+/*================SMALL DEVICES==============*/
+@media screen and (max-width:600px){
+    .Header{
+        height: 100vh;
+    }
+    .scroll_down{
+        display: none;
+    }
+}

@@ -1,9 +1,9 @@
 import React from 'react'
 import './About.css';
 import {FaAward} from 'react-icons/fa'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import {MdSportsEsports} from 'react-icons/md'
 import {GiSkills} from 'react-icons/gi'
-import {ME} from '../../assets/jontanabout.JPG'
+import ME from '../../assets/jonatanAbout.jpeg'
 const About = () => {
   return (
     <section id='About'>
@@ -24,18 +24,24 @@ const About = () => {
               <small>1 Year Freelancer Web Developer</small>
             </article>
             <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small></small>
+              <MdSportsEsports className='about__icon'/>
+              <h5>Hobbies</h5>
+              <small><ul>
+                <li>bouldering climbing almost 3 Years</li>
+                <li>Hiking in the State of Israel</li>
+                <li>Running </li>
+              </ul></small>
             </article>
             <article className='about__card'>
               <GiSkills className='about__icon'/>
               <h5>Skills</h5>
-              <small>Frontend: html,CSS,JS,ejs <br /> Framework: React <br /> Backend: node.js,express,C,Python</small>
+              <small>Frontend: html,CSS,JS,ejs <br /> Framework: React <br /> Backend: node.js,express,C,CPP,Python</small>
             </article> 
           </div>
+          <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quisquam, autem repellendus deleniti minima nobis, beatae et exercitationem odio quos mollitia dicta accusamus sunt? Ab vitae temporibus dolorum ullam ut?
+          2nd Software engineering student. Specializing in the data science major. Experience in website and application development for almost a year. 
+          Main technologies MERN stack. Looking for my next development challenge.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

@@ -28,3 +28,17 @@
     background:  var(--color-bg);
     color: var(--color-white);
 }
+/*================MEDIUM DEVICES==============*/
+@media screen and (max-width:1024px){
+    .navbar{
+        width: 46%;
+        margin: 1rem ;
+    }
+}
+/*================SMALL DEVICES==============*/
+@media screen and (max-width:450px){
+    .navbar{
+        width: 75%;
+        margin-right: 40%;
+    }
+}

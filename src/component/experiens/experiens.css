@@ -56,13 +56,13 @@
     }
 }
 /*================SMALL DEVICES==============*/
-@media screen and (max-width:600px){
+@media screen and (max-width:450px){
     .experiens__container{
         gap: 1rem;
     }
     .experiens__container > div{
         width: 100%;
-        padding: 2rem 3.2rem;
+        padding: 1rem 3.2rem;
     }
     .experence__header{
         padding: 2rem 3.2rem;

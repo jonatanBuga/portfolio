@@ -1,4 +1,4 @@
-.portfolio__container{
+.container.portfolio__container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2.5rem;
@@ -11,7 +11,7 @@
     transition: var(--transition);
 }
 .portfolio__item:hover{
-    background-color: var(--color-primary-variant);
+    border-color: var(--color-primary-variant);
     background: transparent;
 }
 .portfolio__item-img{
@@ -29,15 +29,18 @@
 }
 /*================MEDIUM DEVICES==============*/
 @media screen and (max-width:1024px){
-    .portfolio__container{
+    .container.portfolio__container{
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+    
 }
 /*================SMALL DEVICES==============*/
-@media screen and (max-width:450px){
-    .portfolio__container{
+@media screen and (max-width:600px){
+    .container.portfolio__container{
         grid-template-columns: 1fr;
         gap: 1rem;
+        padding-left: 4rem;
     }
+    
 }

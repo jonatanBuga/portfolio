@@ -43,10 +43,10 @@
 }
 /*================MEDIUM DEVICES==============*/
 @media screen and (max-width:1024px){
-    .experiens__container{
+    .container.experiens__container{
         grid-template-columns: 1fr;
     }
-    .experiens__container > div{
+    .container.experiens__container > div{
         width: 80%;
         padding: 2rem;
         margin: 0 auto;
@@ -56,11 +56,11 @@
     }
 }
 /*================SMALL DEVICES==============*/
-@media screen and (max-width:450px){
-    .experiens__container{
+@media screen and (max-width:600px){
+    .container.experiens__container{
         gap: 1rem;
     }
-    .experiens__container > div{
+    .container.experiens__container > div{
         width: 100%;
         padding: 1rem 3.2rem;
     }

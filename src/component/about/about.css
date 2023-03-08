@@ -1,4 +1,4 @@
-.about__container{
+.container.about__container{
     
     display: grid;
     gap: 15%;
@@ -58,7 +58,7 @@
 }
 /*================MEDIUM DEVICES==============*/
 @media screen and (max-width:1024px){
-    .about__container{
+    .container.about__container{
         grid-template-columns: 1fr;
         gap: 0;
     }  
@@ -71,7 +71,7 @@
     }
 }
 /*================SMALL DEVICES==============*/
-@media screen and (max-width:450px){
+@media screen and (max-width:600px){
     .about__me{
         width: 65%;
         margin: 0 auto 3rem;

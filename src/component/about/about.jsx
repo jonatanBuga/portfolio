@@ -43,7 +43,7 @@ const About = () => {
           2nd Software engineering student. Specializing in the data science major. Experience in website and application development for almost a year. 
           Main technologies MERN stack. Looking for my next development challenge.
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#Contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
